@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-openai
+langchain-anthropic
+langgraph
+chromadb
+sentence-transformers
+tavily-python
+streamlit
+python-dotenv
+langsmith
+fastapi
+uvicorn
+ollama
+groq
+langchain-groq
