@@ -11,17 +11,17 @@ Given any research topic, the Research Agent autonomously breaks the query into 
 
 # Setup
 # 1. Add a .env file with the following keys:
-   GROQ_API_KEY=your_key
-   TAVILY_API_KEY=your_key
-   LANGSMITH_API_KEY=your_key
+- GROQ_API_KEY=your_key
+- TAVILY_API_KEY=your_key
+- LANGSMITH_API_KEY=your_key
 
 # 2. Create and activate a virtual environment:
-  python -m venv venv
-  venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 
 # 3. Install dependencies:
-   pip install -r requirements.txt
-   pip install aiosqlite langgraph-checkpoint-sqlite langchain-tavily
+- pip install -r requirements.txt
+- pip install aiosqlite langgraph-checkpoint-sqlite langchain-tavily
 
 # 4. To run the project, run this command in your virtual environment:
-  streamlit run frontend/app.py
+- streamlit run frontend/app.py
